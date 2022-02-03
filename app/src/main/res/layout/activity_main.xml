@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_move"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move"/>
+
+    <Button
+        android:id="@+id/btn_move_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move Data"/>
+
+    <Button
+        android:id="@+id/btn_move_object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move Object"/>
+
+    <Button
+        android:id="@+id/btn_move_to_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move To Application"/>
+
+    <Button
+        android:id="@+id/btn_move_with_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move With Result"/>
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
